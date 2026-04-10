@@ -41,7 +41,7 @@ export default function Sidebar() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <div style={{ width: '38px', height: '38px', background: 'var(--gradient-primary)', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px' }}>💎</div>
           <div>
-            <div style={{ fontWeight: '800', fontSize: '16px', color: 'var(--text-primary)' }}>FinGuard</div>
+            <div style={{ fontWeight: '800', fontSize: '16px', color: 'var(--text-primary)' }}>WealthLens</div>
             <div style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.8px' }}>AI Finance</div>
           </div>
         </div>

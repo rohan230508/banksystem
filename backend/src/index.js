@@ -32,7 +32,7 @@ app.use('/api/alerts', alertRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'FinGuard API running', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', message: 'WealthLens API running', timestamp: new Date().toISOString() });
 });
 
 // 404
@@ -44,6 +44,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Internal server error' });
 });
 
-app.listen(PORT, () => console.log(`🚀 FinGuard API running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`🚀 WealthLens API running on http://localhost:${PORT}`));
 
 module.exports = app;

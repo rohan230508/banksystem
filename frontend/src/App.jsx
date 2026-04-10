@@ -20,7 +20,7 @@ const PrivateRoute = ({ children }) => {
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: 'var(--bg-primary)' }}>
       <div style={{ textAlign: 'center' }}>
         <div style={{ width: '56px', height: '56px', border: '3px solid rgba(99,102,241,0.2)', borderTopColor: 'var(--accent-primary)', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 16px' }} />
-        <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Loading FinGuard...</p>
+        <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Loading WealthLens...</p>
       </div>
     </div>
   );

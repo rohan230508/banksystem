@@ -1,7 +1,7 @@
 {
   "name": "finguard-backend",
   "version": "1.0.0",
-  "description": "FinGuard - AI-Powered Financial Management Backend",
+  "description": "WealthLens - AI-Powered Financial Management Backend",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -14,7 +14,7 @@
     "ai",
     "financial"
   ],
-  "author": "FinGuard",
+  "author": "WealthLens",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.14"

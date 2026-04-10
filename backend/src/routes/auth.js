@@ -46,7 +46,7 @@ router.post('/register', async (req, res) => {
     // Welcome alert
     await new Alert({
       alertId: uuidv4(), userId: user._id, type: 'income_credited',
-      severity: 'info', title: '🎉 Welcome to FinGuard!',
+      severity: 'info', title: '🎉 Welcome to WealthLens!',
       message: `Your account has been set up successfully. Bank account linked and financial data imported.`,
       actionRequired: false
     }).save();

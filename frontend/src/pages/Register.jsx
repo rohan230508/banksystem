@@ -42,7 +42,7 @@ export default function Register() {
         <div style={{ position: 'relative', zIndex: 1, maxWidth: '480px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '48px' }}>
             <div style={{ width: '48px', height: '48px', background: 'var(--gradient-primary)', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '22px' }}>💎</div>
-            <span style={{ fontSize: '22px', fontWeight: '800' }}>FinGuard AI</span>
+            <span style={{ fontSize: '22px', fontWeight: '800' }}>WealthLens</span>
           </div>
           <h1 style={{ fontSize: '38px', fontWeight: '800', lineHeight: '1.2', marginBottom: '16px' }}>
             Join 50,000+ users<br />

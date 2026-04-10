@@ -40,7 +40,7 @@ export default function Login() {
         <div style={{ position: 'relative', zIndex: 1, maxWidth: '480px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '48px' }}>
             <div style={{ width: '48px', height: '48px', background: 'var(--gradient-primary)', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '22px' }}>💎</div>
-            <span style={{ fontSize: '22px', fontWeight: '800', color: 'var(--text-primary)' }}>FinGuard AI</span>
+            <span style={{ fontSize: '22px', fontWeight: '800', color: 'var(--text-primary)' }}>WealthLens</span>
           </div>
           <h1 style={{ fontSize: '42px', fontWeight: '800', lineHeight: '1.2', marginBottom: '16px' }}>
             Your AI-Powered<br />
@@ -68,7 +68,7 @@ export default function Login() {
         <div className="auth-card">
           <div style={{ marginBottom: '32px' }}>
             <h2 style={{ fontSize: '26px', fontWeight: '800', marginBottom: '8px' }}>Welcome Back</h2>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Sign in to your FinGuard account</p>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '14px' }}>Sign in to your WealthLens account</p>
           </div>
 
           <form onSubmit={handleSubmit}>
